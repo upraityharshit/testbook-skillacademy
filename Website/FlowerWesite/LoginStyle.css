@@ -1,0 +1,83 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://i.pinimg.com/originals/e7/41/d4/e741d472b451a5d643cd9c754bf755a0.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    height: 400px;
+    width: 450px;
+    background-color: rgba(134, 125, 252, 0.3);
+    text-align: center;
+    backdrop-filter: blur(3px);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10%;
+    font-size: 20px;
+}
+
+.login form input{
+    width: 300px;
+    height: 20px;
+    padding: 12px;
+    margin: 10px;
+    font-weight: bold;
+    border: 3px outset rgb(75, 22, 129);
+    color: rgb(34, 26, 58);
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: transparent;
+    
+}
+
+#checkbox{
+    margin: 5px 40px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#checkbox input{
+    width: 12px;
+    height: 13px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#checkbox span{
+    color: white; 
+    font-size: 17px;
+    margin-top: 3px;
+}
+
+#checkbox div a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.login form button{
+    width: 160px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: blue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+.login form a{
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
